@@ -1,0 +1,40 @@
+/**/
+@font-face {font-family: Quicksand;src: url(Quicksand/Quicksand-Bold.ttf);font-weight: bold;}
+@font-face {font-family: Quicksand;src: url(Quicksand/Quicksand-Light.ttf);font-weight: lighter}
+@font-face {font-family: Quicksand;src: url(Quicksand/Quicksand-Medium.ttf);}
+@font-face {font-family: Quicksand;src: url(Quicksand/Quicksand-Regular.ttf);}
+/**/
+html,body{margin: 0px auto;height: 100%;color: #ffffff;font-family: Quicksand;}
+/**/
+._fondoPage{background-image: url(../img/plan4us_fondo.png);background-position: center;background-size: cover;background-repeat: no-repeat;background-color: rgba(0,0,0,1);}
+._fondoInterno{background-image: url(../img/plan4us_interno.png);background-position: center;background-size: cover;background-repeat: no-repeat;background-color: rgba(0,0,0,1);}
+/**/
+._positionA{position: absolute}
+._positionR{position: relative}
+/**/
+._center{left: 50%;top: 50%;transform: translate(-50%,-50%);}
+._centerH{left: 50%;transform: translateX(-50%);}
+._centerV{top: 50%;transform: translateY(-50%);}
+/**/
+._w-90{width: 90%}
+._w-80{width: 80%}
+._w-70{width: 70%}
+._w-60{width: 60%}
+/**/
+._h-50{height: 50%;}
+._h-40{height: 40%;}
+._h-30{height: 30%;}
+._h-20{height: 15%;}
+/**/
+._text-play4us {color: #1F9D8F !important;}
+/**/
+._padding-2{padding: 2%;}
+._paddingT-2{padding-top: 2%;}
+._paddingB-2{padding-bottom: 2%;}
+._paddingL-2{padding-left: 2%;}
+._paddingR-2{padding-right: 2%;}
+._padding-4{padding: 4%;}
+._paddingT-4{padding-top: 4%;}
+._paddingB-4{padding-bottom: 4%;}
+._paddingL-4{padding-left: 4%;}
+._paddingR-4{padding-right: 4%;}

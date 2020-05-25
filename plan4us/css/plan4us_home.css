@@ -1,0 +1,68 @@
+._fondoPromo{
+    background-image: url(../img/promo/MEDIDA-B1-png.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/**/
+._textCenter{
+    text-align: center;
+}
+._iconoCat{
+    width: 75%;
+    padding: 10%;
+}
+/**/
+#carousel {
+  overflow: hidden;
+  width: 100%;
+  /*display: flex;*/
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.slider {
+  display: flex;
+  flex: 1 1 500px;
+  list-style: none;
+  padding: 0;
+  margin: 0 10px;
+}
+.item {
+  flex: 0 0 150px;
+  height: 215px;
+  margin-left: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.item:first-child {
+  margin-left: 0;
+}
+/**/
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #212122;
+    z-index: 1000;
+}
+/**/
+.slider a{color: #fff!important;}
+.slider a:link{text-decoration: none;} 
+/**/
+._back-bloque4 {color: #fff;background-color: #1F9D8F;border-color: #1F9D8F;}
+._back-bloque5 {color: #fff;background-color: #271879;border-color: #271879;}
+._back-bloque6 {color: #fff;background-color: #00A9AA;border-color: #00A9AA;}
+/**/
+._back-color1 {color: #1F9D8F;}
+/**/
+._border-color1 {border: 1px solid #1F9D8F !important;}
+/**/
+._corazon2 {width: 20px;}
+._ubicacion, ._corazon, ._check, ._reloj {width: 30px;}
+._persona, ._visa {width: 40px;}
+._menuImg {width: 50px;}
+._isotipo {width: 80px; height: 80px;}
+/**/
+._alingR {float: right};
