@@ -1,2 +1,2 @@
-FROM nginx:1.16.1-alpine
-COPY plan4us/* /usr/share/nginx/html/
+FROM httpd:2.4
+COPY plan4us/* /usr/local/apache2/htdocs/
