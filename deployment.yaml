@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sample-k8s-deployment
+  name: plan4us
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: test
+      app: qas
   strategy:
     rollingUpdate:
       maxSurge: 0
@@ -15,11 +15,11 @@ spec:
   template:
     metadata:
       labels:
-        app: test
+        app: qas
     spec:
       containers:
-      - name: sample-k8s-app-container
-        image: swr.la-south-2.myhuaweicloud.com/hwperu/test-jenkins:$BUILD_NUMBER
+      - name: plan4us
+        image: swr.la-south-2.myhuaweicloud.com/workshop02/plan4us:$BUILD_NUMBER
         ports:
         - containerPort: 80
       imagePullSecrets:
